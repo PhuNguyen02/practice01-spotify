@@ -1,0 +1,262 @@
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+header{
+    background-color: black;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+            .logo{
+               padding: 25px 0;
+                font-size: 25px;
+                a{
+                    color: white;
+                }
+            }
+            nav{
+                ul{
+                    display: flex;
+                    text-align: center;
+                    li{
+                        margin-left: 30px;
+                        font-size: 20px;
+                        font-weight: bold;
+                        a{
+                            display: block;
+                            color: white;
+                            padding: 25px 0;
+                            &:hover{
+                                color: greenyellow;
+                            }
+                        }
+                    }
+                }
+            }
+        
+
+    }
+
+}
+.main-content-1{
+    padding: 30px 0;
+    background-color:#96f0b6 ;
+   
+    .container{
+        display: flex;
+            .banner{
+                width: 70%;
+            }
+            .content{
+                margin: 30px 0;
+                p{
+                    letter-spacing: 0.1em;
+                    font-weight: 600;
+                    line-height: 16px;
+                    color: #202F72;
+                }
+            }
+            .caption{
+                margin: 30px 0;
+                h1{
+                    font-size: 60px;
+                    line-height: 1.2;
+                    color: #202F72;
+                }
+            }
+            .decription{
+                margin: 30px 0;
+                h2{
+                    font-size: 28px;
+                    font-weight: lighter;
+                    color: #202F72;
+                }
+            }
+            .btn-free{
+                margin: 40px 0;
+                a{
+                    border-radius: 500px;
+                    background-color: #202F72;
+                    padding: 14px 32px;
+                    color: #96f0b6;
+                    font-weight: 600;
+                }
+            }
+            .decription-2{
+                a{
+                    text-decoration: underline;
+                    color: #202F72;
+                }
+            }
+            .backgr{
+                img{
+                    margin-top: 100px;
+                    width: 300px;
+                    height: 300px;
+                }
+            }
+        }
+
+}
+.main-content-2{
+    padding: 30px 0;
+    background:pink url("https://www-growth.scdn.co/static/home/wrapped-homepage-banner-graphic-desktop.svg");
+    background-repeat: no-repeat;
+    background-position:right -1092px bottom -428px;
+
+    background-size: 2042px;
+    .container{
+            .banner{
+                width: 60%;
+            }
+            .content{
+                margin: 30px 0;
+                p{
+                    letter-spacing: 0.1em;
+                    font-weight: 600;
+                    line-height: 16px;
+                    color: #202F72;
+                }
+            }
+            .caption{
+                margin: 30px 0;
+                h1{
+                    font-size: 60px;
+                    line-height: 1.2;
+                    color: #202F72;
+                }
+            }
+            .decription{
+                margin: 30px 0;
+                h2{
+                    font-size: 28px;
+                    font-weight: lighter;
+                    color: #202F72;
+                }
+            }
+        
+            .decription-2{
+                a{
+                    text-decoration: underline;
+                    color: #202F72;
+                }
+            }
+        }
+
+}
+.main-content-3{
+    padding: 30px 0;
+    background:rgb(41, 65, 171)url("https://content-tooling.spotifycdn.com/images/b236bf87-bfd5-4bcb-b51a-77881073039c_lie_circles.svg") no-repeat ;
+    background-size: auto 100%;
+    background-position-x: right;
+    
+    .container{
+            .banner{
+                width: 60%;
+            }
+            .content{
+                margin: 30px 0;
+                p{
+                    letter-spacing: 0.1em;
+                    font-weight: 600;
+                    line-height: 16px;
+                    color: #1ed760;
+                }
+            }
+            .caption{
+                margin: 30px 0;
+                h1{
+                    font-size: 60px;
+                    line-height: 1.2;
+                    color: #1ed760;
+                }
+            }
+            .decription{
+                margin: 30px 0;
+                h2{
+                    font-size: 28px;
+                    font-weight: lighter;
+                    color: #1ed760;
+                }
+            }
+            .btn-free{
+                margin: 40px 0;
+                a{
+                    font-size: 20px;
+                    border-radius: 500px;
+                    background-color: #1ed760;
+                    padding: 14px 32px;
+                    color: rgb(41, 65, 171);
+                    font-weight: 800;
+                }
+            }
+        
+        }
+
+}
+footer{     
+   background-color: black;
+   padding: 40px;
+    h2{
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        color:white;
+        font-size: 30px;
+    }
+    .logo{
+        margin-right: 20px; 
+        width: 20%;
+        h2{
+
+        }
+    }
+   
+    .links{
+        width: 50%;
+        ul{
+            list-style: none;
+            li{
+                margin-bottom: 20px;
+                font-size: 20px;
+                p{
+                    color: rgb(185, 181, 181);
+                }
+                a{
+                    text-decoration: none;
+                    color: white;
+                    &:hover{
+                        color: #1ed760;
+                    }
+                }
+            }
+        }
+    }
+    .about{
+        width: 20%;
+       i{
+        color: white;
+        font-size: 25px;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+       
+       }
+       .social{
+        background-color: rgb(50, 49, 49);
+        padding: 15px;
+        border-radius: 50%;
+        cursor: pointer;
+        &:hover i{
+            color: #1ed760;
+        }
+        
+       }
+    }
+   
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+

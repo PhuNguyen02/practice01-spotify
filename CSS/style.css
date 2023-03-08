@@ -1,0 +1,298 @@
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: black;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+
+header .container .logo {
+  padding: 25px 0;
+  font-size: 25px;
+}
+
+header .container .logo a {
+  color: white;
+}
+
+header .container nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+header .container nav ul li {
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header .container nav ul li a {
+  display: block;
+  color: white;
+  padding: 25px 0;
+}
+
+header .container nav ul li a:hover {
+  color: greenyellow;
+}
+
+.main-content-1 {
+  padding: 30px 0;
+  background-color: #96f0b6;
+}
+
+.main-content-1 .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-content-1 .container .banner {
+  width: 70%;
+}
+
+.main-content-1 .container .content {
+  margin: 30px 0;
+}
+
+.main-content-1 .container .content p {
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  line-height: 16px;
+  color: #202F72;
+}
+
+.main-content-1 .container .caption {
+  margin: 30px 0;
+}
+
+.main-content-1 .container .caption h1 {
+  font-size: 60px;
+  line-height: 1.2;
+  color: #202F72;
+}
+
+.main-content-1 .container .decription {
+  margin: 30px 0;
+}
+
+.main-content-1 .container .decription h2 {
+  font-size: 28px;
+  font-weight: lighter;
+  color: #202F72;
+}
+
+.main-content-1 .container .btn-free {
+  margin: 40px 0;
+}
+
+.main-content-1 .container .btn-free a {
+  border-radius: 500px;
+  background-color: #202F72;
+  padding: 14px 32px;
+  color: #96f0b6;
+  font-weight: 600;
+}
+
+.main-content-1 .container .decription-2 a {
+  text-decoration: underline;
+  color: #202F72;
+}
+
+.main-content-1 .container .backgr img {
+  margin-top: 100px;
+  width: 300px;
+  height: 300px;
+}
+
+.main-content-2 {
+  padding: 30px 0;
+  background: pink url("https://www-growth.scdn.co/static/home/wrapped-homepage-banner-graphic-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: right -1092px bottom -428px;
+  background-size: 2042px;
+}
+
+.main-content-2 .container .banner {
+  width: 60%;
+}
+
+.main-content-2 .container .content {
+  margin: 30px 0;
+}
+
+.main-content-2 .container .content p {
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  line-height: 16px;
+  color: #202F72;
+}
+
+.main-content-2 .container .caption {
+  margin: 30px 0;
+}
+
+.main-content-2 .container .caption h1 {
+  font-size: 60px;
+  line-height: 1.2;
+  color: #202F72;
+}
+
+.main-content-2 .container .decription {
+  margin: 30px 0;
+}
+
+.main-content-2 .container .decription h2 {
+  font-size: 28px;
+  font-weight: lighter;
+  color: #202F72;
+}
+
+.main-content-2 .container .decription-2 a {
+  text-decoration: underline;
+  color: #202F72;
+}
+
+.main-content-3 {
+  padding: 30px 0;
+  background: #2941ab url("https://content-tooling.spotifycdn.com/images/b236bf87-bfd5-4bcb-b51a-77881073039c_lie_circles.svg") no-repeat;
+  background-size: auto 100%;
+  background-position-x: right;
+}
+
+.main-content-3 .container .banner {
+  width: 60%;
+}
+
+.main-content-3 .container .content {
+  margin: 30px 0;
+}
+
+.main-content-3 .container .content p {
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  line-height: 16px;
+  color: #1ed760;
+}
+
+.main-content-3 .container .caption {
+  margin: 30px 0;
+}
+
+.main-content-3 .container .caption h1 {
+  font-size: 60px;
+  line-height: 1.2;
+  color: #1ed760;
+}
+
+.main-content-3 .container .decription {
+  margin: 30px 0;
+}
+
+.main-content-3 .container .decription h2 {
+  font-size: 28px;
+  font-weight: lighter;
+  color: #1ed760;
+}
+
+.main-content-3 .container .btn-free {
+  margin: 40px 0;
+}
+
+.main-content-3 .container .btn-free a {
+  font-size: 20px;
+  border-radius: 500px;
+  background-color: #1ed760;
+  padding: 14px 32px;
+  color: #2941ab;
+  font-weight: 800;
+}
+
+footer {
+  background-color: black;
+  padding: 40px;
+}
+
+footer h2 {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  color: white;
+  font-size: 30px;
+}
+
+footer .logo {
+  margin-right: 20px;
+  width: 20%;
+}
+
+footer .links {
+  width: 50%;
+}
+
+footer .links ul {
+  list-style: none;
+}
+
+footer .links ul li {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+footer .links ul li p {
+  color: #b9b5b5;
+}
+
+footer .links ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .links ul li a:hover {
+  color: #1ed760;
+}
+
+footer .about {
+  width: 20%;
+}
+
+footer .about i {
+  color: white;
+  font-size: 25px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+
+footer .about .social {
+  background-color: #323131;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+footer .about .social:hover i {
+  color: #1ed760;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=style.css.map */
